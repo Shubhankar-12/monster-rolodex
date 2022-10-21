@@ -37,9 +37,9 @@ export class App extends Component {
           placeholder={"Search Monster"}
           className={"searchbox"}
         />
-        {searchedMonster.map((monster) => {
-          return <CardList key={monster.id} monsterName={monster.name} />;
-        })}
+        <div className="card-list">
+          <CardList monsters={searchedMonster} />;
+        </div>
       </div>
     );
   }
