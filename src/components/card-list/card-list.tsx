@@ -1,4 +1,3 @@
-import React from "react";
 import { Monster } from "../../App";
 import { Card } from "../card/Card";
 
