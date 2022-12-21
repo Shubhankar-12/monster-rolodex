@@ -48,12 +48,6 @@ const App = () => {
   );
 };
 
-//   onSearchChange = (e) => {
-//     const searchedVal = e.target.value.toLowerCase();
-//     this.setState(() => {
-//       return { searchedVal };
-//     });
-//   };
 //   render() {
 //     const searchedMonster = this.state.monsters.filter((monster) => {
 //       return monster.name.toLowerCase().includes(this.state.searchedVal);
