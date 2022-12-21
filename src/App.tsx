@@ -48,14 +48,6 @@ const App = () => {
   );
 };
 
-// export class App extends Component {
-//   constructor() {
-//     super();
-//     this.state = {
-//       monsters: [],
-//       searchedVal: "",
-//     };
-//   }
 //   componentDidMount() {
 //     fetch("https://jsonplaceholder.typicode.com/users")
 //       .then((response) => response.json())
