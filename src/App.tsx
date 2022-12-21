@@ -48,24 +48,4 @@ const App = () => {
   );
 };
 
-//   render() {
-//     const searchedMonster = this.state.monsters.filter((monster) => {
-//       return monster.name.toLowerCase().includes(this.state.searchedVal);
-//     });
-//     return (
-//       <div>
-//         <h1 className="app-title">Monster Rolodex</h1>
-//         <SearchBox
-//           onChangeHandler={this.onSearchChange}
-//           placeholder={"Search Monster"}
-//           className={"searchbox"}
-//         />
-// <div className="card-list">
-//   <CardList monsters={searchedMonster} />;
-// </div>
-//       </div>
-//     );
-//   }
-// }
-
 export default App;
