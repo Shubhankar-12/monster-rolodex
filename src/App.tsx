@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import CardList from "./components/card-list/card-list";
 import SearchBox from "./components/search-box/SearchBox";
 import "./App.css";
