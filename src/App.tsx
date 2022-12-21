@@ -48,16 +48,6 @@ const App = () => {
   );
 };
 
-//   componentDidMount() {
-//     fetch("https://jsonplaceholder.typicode.com/users")
-//       .then((response) => response.json())
-//       .then((user) =>
-//         this.setState(() => {
-//           return { monsters: user };
-//         })
-//       );
-//   }
-
 //   onSearchChange = (e) => {
 //     const searchedVal = e.target.value.toLowerCase();
 //     this.setState(() => {
